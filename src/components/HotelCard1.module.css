@@ -1,0 +1,168 @@
+.matterhornSuitesImage {
+  align-self: stretch;
+  height: 200px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.entireBungalow {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  min-width: 94px;
+}
+.videoIcon {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.vector {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 11px;
+}
+.matterhornSuites {
+  margin: 0;
+  width: 214px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-darkslategray-500);
+  display: inline-block;
+}
+.buttonMoreDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.night {
+  width: 214px;
+  position: relative;
+  font-size: var(--body-large-500-size);
+  letter-spacing: 0.04em;
+  color: var(--color-darkslategray-500);
+  display: inline-block;
+}
+.buttonMoreDetailsParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.inputFieldVector {
+  height: 17.2px;
+  width: 15.4px;
+  position: relative;
+}
+.emptyArrow {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+}
+.inputFieldVectorParent {
+  width: 41px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs-6);
+}
+.reviews {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  color: var(--color-cornflowerblue-100);
+  display: inline-block;
+  min-width: 74px;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 8.7px;
+  color: var(--color-darkslategray-500);
+}
+.button {
+  position: relative;
+  font-size: var(--components-button-large-size);
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--components-button-large);
+  color: var(--color-cornflowerblue-100);
+  text-align: left;
+}
+.moreDetailsButton {
+  cursor: pointer;
+  border: 1px solid var(--color-lavender-200);
+  padding: var(--padding-3xs) var(--padding-51xl) var(--padding-3xs)
+    var(--padding-50xl);
+  background-color: transparent;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  flex-direction: row;
+  white-space: nowrap;
+}
+.moreDetailsButton:hover {
+  background-color: var(--color-lightsteelblue-300);
+  border: 1px solid var(--color-lightsteelblue-200);
+  box-sizing: border-box;
+}
+.hotelCard,
+.hotelCard1,
+.moreDetailsButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hotelCard {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--gray-00);
+  border: 1px solid var(--color-whitesmoke);
+  flex-direction: column;
+  padding: var(--padding-mini) var(--padding-xs) 0;
+  gap: var(--gap-4xl);
+}
+.hotelCard:hover {
+  background-color: var(--color-gainsboro-100);
+  cursor: pointer;
+}
+.hotelCard1 {
+  width: 300px;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--label-02-size);
+  color: var(--color-gray-200);
+  font-family: var(--components-button-large);
+}
+@media screen and (max-width: 450px) {
+  .matterhornSuites {
+    font-size: var(--body-large-500-size);
+  }
+}

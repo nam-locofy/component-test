@@ -1,0 +1,169 @@
+.regulararrowleftIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.arrowButton {
+  height: 40px;
+  width: 40px;
+  border-radius: var(--br-81xl);
+  border: 1.5px solid var(--primary-500);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-7xs);
+}
+.div {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.paginationitem {
+  height: 40px;
+  width: 40px;
+  border-radius: var(--br-81xl);
+  background-color: var(--primary-500);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  color: var(--gray-00);
+}
+.div1 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.paginationitem1 {
+  height: 40px;
+  width: 40px;
+  border-radius: var(--br-81xl);
+  background-color: var(--gray-00);
+  border: 1px solid var(--gray-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0;
+}
+.div2 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.paginationitem2 {
+  height: 40px;
+  width: 40px;
+  border-radius: var(--br-81xl);
+  background-color: var(--gray-00);
+  border: 1px solid var(--gray-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0;
+}
+.div3 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.paginationitem3 {
+  height: 40px;
+  width: 40px;
+  border-radius: var(--br-81xl);
+  background-color: var(--gray-00);
+  border: 1px solid var(--gray-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0;
+}
+.div4 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.paginationitem4 {
+  height: 40px;
+  width: 40px;
+  border-radius: var(--br-81xl);
+  background-color: var(--gray-00);
+  border: 1px solid var(--gray-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0;
+}
+.div5 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.pages,
+.paginationitem5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.paginationitem5 {
+  height: 40px;
+  width: 40px;
+  border-radius: var(--br-81xl);
+  background-color: var(--gray-00);
+  border: 1px solid var(--gray-100);
+  box-sizing: border-box;
+  padding: var(--padding-3xs) 0;
+}
+.pages {
+  gap: var(--gap-5xs);
+}
+.regulararrowrightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.arrowButton1,
+.pagination {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.arrowButton1 {
+  height: 40px;
+  width: 40px;
+  border-radius: var(--br-81xl);
+  border: 1.5px solid var(--primary-500);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-7xs);
+}
+.pagination {
+  width: 780.5px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--body-small-400-size);
+  color: var(--gray-900);
+  font-family: var(--body-small-400);
+}
+@media screen and (max-width: 450px) {
+  .pagination {
+    flex-wrap: wrap;
+  }
+}

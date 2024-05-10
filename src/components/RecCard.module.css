@@ -1,0 +1,95 @@
+.d5n,
+.swiss,
+.switzerlandimageIcon {
+  align-self: stretch;
+  position: relative;
+}
+.switzerlandimageIcon {
+  height: 242px;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.d5n,
+.swiss {
+  letter-spacing: 0.02em;
+}
+.swiss {
+  font-weight: 500;
+}
+.d5n {
+  font-size: var(--label-02-size);
+  color: var(--color-darkgray);
+}
+.swissParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  min-width: 118px;
+}
+.div {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  line-height: 34px;
+  font-family: var(--font-baloo-bhai);
+  color: var(--color-cornflowerblue-100);
+  text-align: right;
+  white-space: nowrap;
+}
+.cardInfo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+.holidayDetails,
+.recCard2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.holidayDetails {
+  align-self: stretch;
+  border-radius: 0 0 var(--br-3xs) var(--br-3xs);
+  background-color: var(--gray-00);
+  border: 1px solid var(--color-whitesmoke);
+  justify-content: center;
+  padding: var(--padding-xl) var(--padding-mini);
+}
+.recCard2 {
+  flex: 1;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+  min-width: 294px;
+  max-width: 320px;
+  text-align: left;
+  font-size: var(--body-xl-600-size);
+  color: var(--color-darkslategray-300);
+  font-family: var(--components-button-large);
+}
+@media screen and (max-width: 1050px) {
+  .div {
+    font-size: var(--font-size-7xl);
+    line-height: 27px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .swiss {
+    font-size: var(--label-02-size);
+  }
+  .div {
+    font-size: var(--font-size-lgi);
+    line-height: 20px;
+  }
+  .cardInfo {
+    flex-wrap: wrap;
+  }
+}

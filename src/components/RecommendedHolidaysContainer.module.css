@@ -1,0 +1,211 @@
+.recommendedHolidays,
+.viewAllHolidays {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+}
+.recommendedHolidays {
+  margin: 0;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 278px;
+  max-width: 100%;
+}
+.viewAllHolidays {
+  font-weight: 500;
+}
+.arrowRightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.recTitle,
+.viewAllHolidaysParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.viewAllHolidaysParent {
+  width: 199.9px;
+  border-radius: var(--br-12xl);
+  background-color: var(--gray-00);
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+  text-align: right;
+  font-size: var(--body-large-500-size);
+  color: var(--color-cornflowerblue-200);
+}
+.recTitle {
+  align-self: stretch;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 100%;
+  row-gap: 20px;
+}
+.unsplash5mv818tzxeoIcon {
+  align-self: stretch;
+  height: 331.6px;
+  position: relative;
+  border-radius: var(--br-47xl);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.bali,
+.d3n {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.bali {
+  font-weight: 500;
+}
+.d3n {
+  font-size: var(--label-02-size);
+  color: var(--color-darkgray);
+}
+.baliParent {
+  width: 62px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.containerHeader {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  line-height: 34px;
+  font-family: var(--font-baloo-bhai);
+  color: var(--color-cornflowerblue-100);
+  text-align: right;
+  white-space: nowrap;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.holidayDetails,
+.recCard1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.holidayDetails {
+  align-self: stretch;
+  border-radius: 0 0 var(--br-3xs) var(--br-3xs);
+  background-color: var(--gray-00);
+  border: 1px solid var(--color-whitesmoke);
+  justify-content: center;
+  padding: var(--padding-xl) var(--padding-mini);
+}
+.recCard1 {
+  flex: 0.5764;
+  justify-content: flex-start;
+  padding: var(--padding-51xl) var(--padding-58xl);
+  box-sizing: border-box;
+  min-width: 240px;
+  max-width: 320px;
+}
+.recCardsContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 20px;
+  font-size: var(--body-xl-600-size);
+  color: var(--color-darkslategray-300);
+}
+.viewAllHolidays1 {
+  height: 21px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  display: inline-block;
+}
+.arrowRightIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.viewAllBottom {
+  width: 199.9px;
+  border-radius: var(--br-12xl);
+  background-color: var(--gray-00);
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+  text-align: right;
+  font-size: var(--body-large-500-size);
+  color: var(--color-cornflowerblue-200);
+}
+.recommendedHolidaysContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-500);
+  font-family: var(--components-button-large);
+}
+@media screen and (max-width: 1200px) {
+  .recCardsContainer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .recommendedHolidays {
+    font-size: var(--heading-03-size);
+  }
+  .containerHeader {
+    font-size: var(--font-size-7xl);
+    line-height: 27px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .recCard1 {
+    padding-top: var(--padding-26xl);
+    padding-bottom: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .recommendedHolidays {
+    font-size: var(--body-large-500-size);
+  }
+  .bali {
+    font-size: var(--label-02-size);
+  }
+  .containerHeader {
+    font-size: var(--font-size-lgi);
+    line-height: 20px;
+  }
+  .recCard1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+    flex: 1;
+  }
+}

@@ -1,0 +1,43 @@
+.icongooglePlay1 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.getItNow {
+  align-self: stretch;
+  position: relative;
+  line-height: 13px;
+}
+.googlePlay {
+  position: relative;
+  font-size: var(--body-small-400-size);
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 88px;
+}
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.mobileApp {
+  align-self: stretch;
+  border-radius: var(--br-10xs);
+  background-color: var(--gray-800);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-xl);
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-2xs);
+  color: var(--gray-00);
+  font-family: var(--font-inter);
+}

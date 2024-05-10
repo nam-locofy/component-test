@@ -1,0 +1,231 @@
+.logoIcon {
+  width: 174px;
+  height: 33px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fickleFlightIs {
+  align-self: stretch;
+  position: relative;
+  line-height: 27px;
+}
+.facebookIcon,
+.instagramIcon,
+.twitterIcon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 30px;
+}
+.facebookIconParent,
+.fickleflightBio {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.fickleflightBio {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-sm);
+  min-width: 335px;
+  max-width: 100%;
+}
+.seperator {
+  height: 156.9px;
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+}
+.aboutUs,
+.careers,
+.company1,
+.news {
+  position: relative;
+  display: inline-block;
+}
+.company1 {
+  width: 174.7px;
+  line-height: 27px;
+  font-weight: 500;
+}
+.aboutUs,
+.careers,
+.news {
+  width: 135.7px;
+}
+.careers,
+.news {
+  width: 84.3px;
+}
+.careers {
+  width: 115.1px;
+}
+.howWeWork {
+  align-self: stretch;
+  position: relative;
+}
+.company,
+.supportFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.supportFrame {
+  align-self: stretch;
+  gap: var(--gap-xs);
+  font-size: var(--label-02-size);
+}
+.company {
+  flex: 1;
+  gap: var(--gap-xl-8);
+  min-width: 148px;
+}
+.account,
+.support1 {
+  position: relative;
+  display: inline-block;
+}
+.support1 {
+  width: 131.6px;
+  line-height: 27px;
+  font-weight: 500;
+}
+.account {
+  width: 109.6px;
+}
+.supportCenter {
+  align-self: stretch;
+  position: relative;
+}
+.accessibility,
+.faq {
+  width: 53px;
+  position: relative;
+  display: inline-block;
+}
+.accessibility {
+  width: 164.4px;
+}
+.accountParent,
+.support {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.accountParent {
+  align-self: stretch;
+  gap: var(--gap-xs);
+  font-size: var(--label-02-size);
+}
+.support {
+  flex: 1;
+  gap: var(--gap-xl-8);
+  min-width: 148px;
+  z-index: 1;
+  margin-left: -2.9px;
+}
+.more1 {
+  width: 76.7px;
+  position: relative;
+  line-height: 27px;
+  font-weight: 500;
+  display: inline-block;
+}
+.airlineFees,
+.covidAdvisory,
+.tips {
+  width: 172.9px;
+  position: relative;
+  display: inline-block;
+}
+.airlineFees,
+.tips {
+  width: 135.4px;
+}
+.tips {
+  width: 50.6px;
+}
+.quarantineRules {
+  align-self: stretch;
+  position: relative;
+}
+.covidAdvisoryParent,
+.more {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.covidAdvisoryParent {
+  align-self: stretch;
+  gap: var(--gap-xs);
+  font-size: var(--label-02-size);
+}
+.more {
+  flex: 1;
+  gap: var(--gap-xl-8);
+  min-width: 148px;
+  z-index: 2;
+  margin-left: -2.9px;
+}
+.footer,
+.footerLinks {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.footerLinks {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 335px;
+  row-gap: 20px;
+  font-size: var(--body-xl-600-size);
+}
+.footer {
+  align-self: stretch;
+  background: linear-gradient(91.74deg, #0b5ba8 25.38%, #299bd8);
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-4xs-2) var(--padding-75xl) var(--padding-13xl)
+    var(--padding-71xl);
+  box-sizing: border-box;
+  gap: 44px 41.5px;
+  text-align: left;
+  font-size: var(--body-large-500-size);
+  color: var(--gray-00);
+  font-family: var(--components-button-large);
+}
+@media screen and (max-width: 750px) {
+  .footerLinks {
+    flex-wrap: wrap;
+  }
+  .footer {
+    gap: var(--gap-2xl);
+    padding-left: var(--padding-26xl);
+    padding-right: var(--padding-28xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .company1,
+  .more1,
+  .support1 {
+    font-size: var(--label-02-size);
+    line-height: 22px;
+  }
+  .footer {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

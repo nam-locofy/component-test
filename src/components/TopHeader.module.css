@@ -1,0 +1,151 @@
+.symbolsIcon {
+  position: absolute;
+  height: 96.97%;
+  width: 99.83%;
+  top: 1.52%;
+  right: 0.17%;
+  bottom: 1.52%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.fickleflightLogo {
+  align-self: stretch;
+  height: 33px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.footerSection {
+  width: 174px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+  box-sizing: border-box;
+}
+.hamburgerMenuIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  display: none;
+}
+.explore {
+  position: relative;
+}
+.formHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  color: var(--color-cornflowerblue-100);
+}
+.search {
+  position: relative;
+  cursor: pointer;
+}
+.formHeader1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.hotels {
+  position: relative;
+}
+.formHeader2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.offers {
+  position: relative;
+}
+.formHeader3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-7xs) 0 0;
+}
+.notificationBellIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.profilePictureIcon {
+  height: 36px;
+  width: 36px;
+  border-radius: var(--br-19xl);
+  object-fit: cover;
+  cursor: pointer;
+}
+.formTitle {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.shareYourTravelsForm {
+  width: 368px;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.shareYourTravelsForm,
+.topContainer,
+.topHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.topContainer {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.topHeader {
+  align-self: stretch;
+  background-color: var(--gray-00);
+  justify-content: flex-start;
+  padding: var(--padding-xl-5) var(--padding-61xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: var(--body-small-400-size);
+  color: var(--color-darkslategray-300);
+  font-family: var(--components-button-large);
+}
+@media screen and (max-width: 750px) {
+  .shareYourTravelsForm {
+    display: none;
+  }
+  .topHeader {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,164 @@
+.regularhouseIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+}
+.home {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 39px;
+}
+.regularcaretrightIcon {
+  width: 12px;
+  height: 12px;
+  position: relative;
+}
+.regularcaretrightWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.shop {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 34px;
+}
+.regularcaretrightIcon1 {
+  width: 12px;
+  height: 12px;
+  position: relative;
+}
+.regularcaretrightContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.shopGrid {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 65px;
+  white-space: nowrap;
+}
+.regularcaretrightIcon2 {
+  width: 12px;
+  height: 12px;
+  position: relative;
+}
+.regularcaretrightFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.shopGrid1 {
+  align-self: stretch;
+  width: 65px;
+  position: relative;
+  line-height: 20px;
+  display: none;
+  white-space: nowrap;
+}
+.regularcaretrightIcon3 {
+  height: 12px;
+  width: 12px;
+  position: relative;
+  display: none;
+}
+.shopGrid2 {
+  align-self: stretch;
+  width: 65px;
+  position: relative;
+  line-height: 20px;
+  display: none;
+  white-space: nowrap;
+}
+.regularcaretrightIcon4 {
+  height: 12px;
+  width: 12px;
+  position: relative;
+  display: none;
+}
+.shopGrid3 {
+  align-self: stretch;
+  width: 65px;
+  position: relative;
+  line-height: 20px;
+  display: none;
+  white-space: nowrap;
+}
+.regularcaretrightIcon5 {
+  height: 12px;
+  width: 12px;
+  position: relative;
+  display: none;
+}
+.shopGrid4 {
+  align-self: stretch;
+  width: 65px;
+  position: relative;
+  line-height: 20px;
+  display: none;
+  white-space: nowrap;
+}
+.regularcaretrightIcon6 {
+  height: 12px;
+  width: 12px;
+  position: relative;
+  display: none;
+}
+.behicleAccessories {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--secondary-500);
+  display: inline-block;
+  min-width: 128px;
+  white-space: nowrap;
+}
+.breadcrumb,
+.breadcumb {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.breadcumb {
+  gap: var(--gap-5xs);
+}
+.breadcrumb {
+  align-self: stretch;
+  background-color: var(--gray-50);
+  padding: var(--padding-7xl) var(--padding-281xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: var(--body-small-400-size);
+  color: var(--gray-600);
+  font-family: var(--body-small-400);
+}
+@media screen and (max-width: 1225px) {
+  .breadcrumb {
+    padding-left: var(--padding-131xl);
+    padding-right: var(--padding-131xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .breadcrumb {
+    padding-left: var(--padding-56xl);
+    padding-right: var(--padding-56xl);
+    box-sizing: border-box;
+  }
+}
