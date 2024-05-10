@@ -1,0 +1,29 @@
+module.exports = {
+  components: [
+    "./src/components/BottomNav.js",
+    "./src/components/Breadcrumb.js",
+    "./src/components/CardsContainer.js",
+    "./src/components/Col.js",
+    "./src/components/FlightMainContainer.js",
+    "./src/components/Footer.js",
+    "./src/components/FrameComponent.js",
+    "./src/components/FrameLogo.js",
+    "./src/components/HotelCard.js",
+    "./src/components/HotelCard1.js",
+    "./src/components/MiddleNav.js",
+    "./src/components/MobileApp.js",
+    "./src/components/Pagination.js",
+    "./src/components/Product.js",
+    "./src/components/Product1.js",
+    "./src/components/Product2.js",
+    "./src/components/RecCard.js",
+    "./src/components/RecommendedHolidaysContainer.js",
+    "./src/components/SearchIcon.js",
+    "./src/components/SearchIcon1.js",
+    "./src/components/SearchSection.js",
+    "./src/components/SubscribeSection.js",
+    "./src/components/TopHeader.js",
+    "./src/components/TripMenus.js",
+    "./src/components/Widget.js"
+  ]
+};
